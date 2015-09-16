@@ -9,6 +9,7 @@ html {
 header {
  margin:0 0 1rem;
  padding: 0.5em;
+ text-align: center;
     
  font-family: sans-serif;
 }
@@ -17,6 +18,10 @@ header {
     margin:0;
 }
 
+h2 { 
+ text-align: center;
+
+}
         
 
  
