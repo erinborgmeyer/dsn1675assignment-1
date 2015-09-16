@@ -6,6 +6,16 @@ html {
 
 /*---------------------=Masthead-------------*/
     
+header {
+ margin:0 0 1rem;
+ padding: 0.5em;
+    
+ font-family: sans-serif;
+}
+    
+.nav {
+    margin:0;
+}
 
         
 
