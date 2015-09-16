@@ -36,12 +36,16 @@ h3 {
      width: 50%;
         
 }
+        
+main {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+}
  
     
-    
-}
-
-
     
 
 
