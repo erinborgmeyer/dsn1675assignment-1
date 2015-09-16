@@ -1,18 +1,26 @@
+/*---------------------=General--------------*/
+
 html {
-    
+ font-family: Arial,sans-serif;
+}
+
+/*---------------------=Masthead-------------*/
     
 header {
  text-align: center;
     
 }
 
+    .nav {
+     margin: 0;
+}
+
     .li {
      display: inline;
-        
 }           
     
 h1 { 
- font-family: sans-serif;
+ font-family: "Source Sans Pro";
  font-size: 2rem;
  text-align: center;
 }
@@ -30,24 +38,12 @@ h3 {
     dt {
      float: left;
      width: 50%;
+}
      
     dd {
      float: left;
      width: 50%;
-        
 }
         
-main {
-    margin: 0 auto;
-    padding: 2em 2em 4em;
-    max-width: 800px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-}
+
  
-    
-    
-
-
-    
-}
