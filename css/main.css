@@ -6,44 +6,7 @@ html {
 
 /*---------------------=Masthead-------------*/
     
-header {
- text-align: center;
-    
-}
 
-    .nav {
-     margin: 0;
-}
-
-    .li {
-     display: inline;
-}           
-    
-h1 { 
- font-family: "Source Sans Pro";
- font-size: 2rem;
- text-align: center;
-}
-    
-    
-h2 {
- text-align: center;
-}
-    
-    
-h3 {
- text-align: center;
-}
-    
-    dt {
-     float: left;
-     width: 50%;
-}
-     
-    dd {
-     float: left;
-     width: 50%;
-}
         
 
  
