@@ -116,7 +116,7 @@ body {
     width: 30%;
 }
     
-main {
+.main {
     float: right;
     width: 70%;
     
@@ -141,5 +141,17 @@ main {
 .nav li {
     display: block;
     
+}
+    
+dt {
+    float: left;
+    width: 50%;
 
 }
+    
+dd { 
+   float: left;
+    width: 50%
+    
+    
+}    
