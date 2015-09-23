@@ -84,7 +84,7 @@ dd {
 
 }
 
-@media only screen and (min-width:26em)
+@media only screen and (min-width:26em) {
 
 .nav {
     text-align: center;
@@ -102,7 +102,7 @@ body {
 
 }
 
-@media only screen and (min-width: 30em)}
+@media only screen and (min-width: 30em) {
 
 .logo {
     display: inline-block;
