@@ -40,8 +40,14 @@ html {
 }
 
 *,*:: before, *::after {
-    box-sizing:inherit;
+    box-sizing: inherit;
     
+}
+
+.logo {
+    width: 100px;
+    display: inherit;
+    margin: 0 auto;
 }
 
 body {
@@ -49,34 +55,46 @@ body {
     
 }
 
-.masthead {
-    background-color: lightblue;
-    color: #fff;
+dt {
+  float: left;
+  clear: left;
+  margin-right: 5px;
+  font-weight: bold;
 }
 
-.logo {
-    width: 100px;
-    display: block;
-    margin: 0 auto;
+dd {
+  margin-left: 0px;
+}
+
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.masthead {
+    background-image:(../logo.ai);
+    font-size: 1rem;
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 4rem;
     text-align: center;
+    color: black;
 }
 
 .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: lightgrey;
     clear: both;
 }
 
 .nav a {
     display: block;
     padding: .5em; 1em;
-    color: lightblue;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -135,6 +153,7 @@ body {
     
 .nav { 
     text-align: left;
+
     
 }
     
@@ -142,16 +161,6 @@ body {
     display: block;
     
 }
-    
-dt {
-    float: left;
-    width: 50%;
 
-}
-    
-dd { 
-   float: left;
-    width: 50%
-    
-    
-}    
+
+   
