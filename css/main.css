@@ -52,6 +52,7 @@ html {
 
 body {
     margin 0;
+    background-color: lightblue;
     
 }
 
@@ -125,7 +126,19 @@ dd {
     margin: 0;
     display: inline-block;
     vertical-align: middle;
+
 }
+
+@media only screen and (min-width: 35em) {
+    
+body {
+    background-color: limegreen;
+
+}
+ .title {
+     color: purple;
+ }
+    
 
 @media only screen and (min-width: 55em) {
     
