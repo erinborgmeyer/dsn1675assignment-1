@@ -39,6 +39,11 @@ body {
     
 }
 
+.wrapper {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
 dt {
    float: left;
    clear: left;
@@ -58,6 +63,7 @@ dd {
 
 .masthead {
     font-size: 1rem;
+    padding: 1em;
 }
 
 .title {
@@ -83,6 +89,8 @@ dd {
     font-weight: bold;
 
 }
+
+
 
 @media only screen and (min-width:26em) {
 
@@ -121,6 +129,19 @@ body {
 body {
     background-color: lightblue;
 }
+    
+.wonderimage {
+    float: right;
+    width: 50%;
+}
+
+h3 {
+    clear: both;
+
+}
+
+h2 {
+    clear: both;
 
 }
 
@@ -131,7 +152,14 @@ body {
     background-color: lightgreen;
 
 }
+.wonderimage {
+    float: right;
+    width: 50%;
+}
 
+h3 {
+    clear: both;
+}
 }
     
 
@@ -173,8 +201,33 @@ body {
 body{
     background-color: lightpink;
 }
+    
+.wonderimage {
+    float: right;
+    width: 50%;
+}
+
+h3 {
+    clear: both;
 
 }
+
+}
+
+
+@media print {
+    
+    .nav {
+        display: none;
+    }
+    
+    .main a::after {
+        content: " (" attr(href) ")";
+        text-decoration: none;
+        color: #666;
+        }
+}
+
 
 
 
